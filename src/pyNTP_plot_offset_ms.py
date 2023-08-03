@@ -69,7 +69,7 @@ def main():
             print(f"Offset (ms): {offset_ms:.2f}")
 
         update_plot(offset_values)
-        sleep(0.5)  # Update the plot every 1 second
+        sleep(0.5)  # Update the plot every 500 millisecond
 
 if __name__ == "__main__":
     main()
